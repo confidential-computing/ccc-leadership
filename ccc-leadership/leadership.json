@@ -1,0 +1,182 @@
+[
+  {
+    "id": "nelly-porter",
+    "name": "Nelly Porter",
+    "role": "Governing Board Chair",
+    "organization": "Google",
+    "title": "Lead of Confidential Computing",
+    "category": "Governing Board",
+    "avatar": "./leadership-photos/nelly-porter.png",
+    "bio": "Nelly Porter is a lead of the Confidential Computing in Google with over 10 years' experience in platform security, virtsec, PKI, crypto, authentication, and authorization field. She is working on multiple areas in Google, from root of trust, Titan, to the Shielded and Confidential Computing, has 25 patents and defensive publications. Prior to working at Google, Porter spent some time working in Microsoft in the virtualization and security space, HP Labs advancing clustering story, and Scientix (Israel) as a firmware and kernel driver eng. She has two sons, both are in the CS field, one of them is working for Google."
+  },
+  {
+    "id": "alec-fernandez",
+    "name": "Alec Fernandez",
+    "role": "Governing Board Member",
+    "organization": "Microsoft",
+    "title": "Azure Program Manager",
+    "category": "Governing Board",
+    "avatar": "./leadership-photos/alec-fernandez.jpg",
+    "bio": "Alec spent several decades in application development working with SAS Institute, a pioneering data analytics software company. As security became more important, he pivoted to a role as an an application security architect focusing on PKI infrastructure needed to secure data at rest and data in motion.\n\nNagging doubts about uncontrollable access to data in memory led Alec to his his current role in Confidential Computing acting as a program manager in Microsoft Azure. He helps define and drive features to improve the security posture of Confidential Computing products that prevent unauthorized individuals, including Microsoft operators, from being able to access customer data whether it is at rest, in motion or in use."
+  },
+  {
+    "id": "hugo-romero",
+    "name": "Hugo Romero",
+    "role": "Premier Member Representative",
+    "organization": "AMD",
+    "title": "Vice President of Engineering and Head of Product Security",
+    "category": "Governing Board",
+    "avatar": "./leadership-photos/hugo-romero.jpg",
+    "bio": "Hugo Romero is a Vice President of Engineering and Head of Product Security at AMD. He oversees several key areas of Security Architecture, including Confidential Computing Architecture and Root of Trust Architecture. With extensive experience in both hardware and software security, Hugo brings a comprehensive expertise to his role. Prior to joining AMD, he spent 24 years at Qualcomm, where he honed his skills and contributed to numerous security innovations."
+  },
+  {
+    "id": "manu-fontaine",
+    "name": "Manu Fontaine",
+    "role": "General Member Representative",
+    "organization": "Hushmesh",
+    "title": "CEO",
+    "category": "Governing Board",
+    "avatar": "./leadership-photos/manu-fontaine.jpg",
+    "bio": "Manu Fontaine is the Founder and CEO of Hushmesh, a dual-use Public Benefit cybersecurity startup in the Washington DC area. The company believes that people, companies and democracies need safe and authentic data, just like they need clean water and stable electricity. To achieve this, Hushmesh leverages Confidential Computing to automate decentralized, pairwise, and end-to-end cryptographic security, at the person and non-person entity level and at global scale. Secured by the Universal Name System (UNS) and the Universal Certificate Authority (UCA), the Mesh provides global assurance of data provenance, integrity, authenticity, confidentiality and privacy for all entities. Manu lives with his wife in Northern Virginia, and is the proud father of two daughters pursuing electrical engineering and physics career paths."
+  },
+  {
+    "id": "michael-oconnor",
+    "name": "Michael O'Connor",
+    "role": "Governing Board Vice Chair",
+    "organization": "NVIDIA",
+    "title": "Senior Director of Software Architecture",
+    "category": "Governing Board",
+    "avatar": "./leadership-photos/michael-oconnor.jpg",
+    "bio": "Michael O'Connor is a system software architect and senior director of software architecture at NVIDIA. Michael is the chief architect for Confidential Computing at NVIDIA and is also leading software architecture for NVIDIA AI Enterprise and NVIDIA Certified. Prior to working in Confidential Computing, Michael led the open-source contribution efforts from NVIDIA for GPU optimizations in Deep Learning Frameworks such as PyTorch, TensorFlow, JAX, MXNet, and Caffe."
+  },
+  {
+    "id": "mingshen-sun",
+    "name": "Mingshen Sun",
+    "role": "Premier Member Representative",
+    "organization": "TikTok",
+    "title": "Research Scientist",
+    "category": "Governing Board",
+    "avatar": "./leadership-photos/mingshen-sun.jpg",
+    "bio": "Mingshen is a research scientist at TikTok, leading applications and innovations of the trusted/confidential computing technologies. Previously, Mingshen worked on multiple open-source projects in security with trusted execution environments. In particular, he was fortunate to lead Apache Teaclave. Mingshen also published several academic papers on topics at the intersection of privacy and security, operating systems, and programming languages. Mingshen has two fluffy cats that keep playing hide and seek around the home all day."
+  },
+  {
+    "id": "yier-jin",
+    "name": "Yier Jin",
+    "role": "Premier Member Representative",
+    "organization": "Huawei",
+    "title": "Chief Scientist on Trusted Computing",
+    "category": "Governing Board",
+    "avatar": "./leadership-photos/yier-jin.png",
+    "bio": "Yier Jin is the Distinguished Scientist on Trusted Computing in Huawei. He is also a adjunct Professor in University of Science and Technology of China (USTC). He was an Associate Professor and IoT Term Professor in the Department of Electrical and Computer Engineering (ECE) in the University of Florida (UF). Dr. Jin received his PhD degree in Electrical Engineering in 2012 from Yale University after he got the B.S. and M.S. degrees in Electrical Engineering from Zhejiang University, China, in 2005 and 2007, respectively.\n\nHis research focuses on the areas of trusted computing, hardware security, trusted hardware intellectual property (IP) cores and hardware-software co-design for modern computing systems. Dr. Jin is a recipient of the DoE Early CAREER Award in 2016 and ONR Young Investigator Award in 2019. He received Best Paper Award at DAC'15, ASP-DAC'16, HOST'17, ACM TODAES'18, GLSVLSI'18, DATE'19, AsianHOST'20, Oakland'22, and CCS'23. He was an IEEE Council on Electronic Design Automation (CEDA) Distinguished Lecturer."
+  },
+  {
+    "id": "samuel-ortiz",
+    "name": "Samuel Ortiz",
+    "role": "General Member Representative",
+    "organization": "Rivos",
+    "title": "Principal Member of Technical Staff",
+    "category": "Governing Board",
+    "avatar": "./leadership-photos/samuel-ortiz.png",
+    "bio": "Samuel is a Principal Member of Technical Staff at Rivos, where he works on defining and implementing Confidential Computing and trusted IO on RISC-V platforms. He's been working in the software industry for more than 15 years, and has experience with operating systems, virtualization, container technologies and cloud computing. Prior to joining Rivos, he worked for Nokia, Intel and Apple. Samuel is a long time open source contributor and maintainer. He co-created and still maintains multiple open source projects like e.g. Kata Containers, Cloud Hypervisor or Confidential Containers."
+  },
+  {
+    "id": "shankaran-gnanashanmugam",
+    "name": "Shankaran Gnanashanmugam",
+    "role": "Premier Member Representative",
+    "organization": "Meta",
+    "title": "Technical Lead Manager for Network Platform Security",
+    "category": "Governing Board",
+    "avatar": "./leadership-photos/shankaran-gnanashanmugam.png",
+    "bio": "Shankaran is a technical lead manager for Network Platform Security at Meta leading efforts on Confidential Computing and platform Security. He has developed a platform for confidential computing and is also working on multiple areas from Platform root of trust, Intrusion Detection, to Anti-DDoS protection in Meta. Shankaran has over 15 years of experience in security. Prior to Meta, Shankaran worked at Netskope and Juniper Networks. At Netskope, he was the architect for deep application packet inspection engine powering inline CASB and worked on multiple data plane solutions from Data Leakage Prevention to Network Security. He has worked on SSL VPN and Mobile Security at Juniper Networks."
+  },
+  {
+    "id": "paul-oneill",
+    "name": "Paul O'Neill",
+    "role": "Premier Member Representative",
+    "organization": "Intel",
+    "title": "Senior Director in Intel's Confidential Computing Group",
+    "category": "Governing Board",
+    "avatar": "./leadership-photos/paul-oneill.jpeg",
+    "bio": "Paul is Senior Director in Intel's Confidential Computing Group, part of the Intel Security Center of Excellence. He is responsible for driving the enablement and adoption of Intel Confidential Computing and Confidential AI solutions—including Intel SGX, Intel TDX, and TDX Connect— together with strategies that span enterprise, government, cloud, healthcare, and IoT markets in partnership with leading global organizations.\n\nSince joining Intel in 2015, Paul has been based in Ireland and leads a worldwide technical enablement team, helping customers and partners build trusted solutions that address data sovereignty, privacy, and compliance challenges.\n\nHis expertise includes Confidential and Secure AI, Confidential Computing, security strategy, privacy-enhancing technologies, trusted execution environments, attestation, and data sovereignty."
+  },
+  {
+    "id": "jens-albers",
+    "name": "Jens Albers",
+    "role": "General Member Representative",
+    "organization": "Fr0ntierX",
+    "title": "CTO",
+    "category": "Governing Board",
+    "avatar": "./leadership-photos/jens-albers.jpg",
+    "bio": ""
+  },
+  {
+    "id": "dan-middleton",
+    "name": "Dan Middleton",
+    "role": "Technical Advisory Council Chair",
+    "organization": "Nvidia",
+    "title": "Principal Software Architect",
+    "category": "Technical Advisory Council",
+    "avatar": "./leadership-photos/dan-middleton.jpg",
+    "bio": "Dan Middleton is a Principal Software Architect at NVIDIA, with deep experience driving innovation at the intersection of open source and emerging technologies. Over his career, he has led the development and release of products spanning Services, SaaS, Computational Imaging, Blockchain, and Confidential Computing. Dan has a strong track record of leadership in the open-source ecosystem, having represented organizations in Linux Foundation projects such as Hyperledger, CNCF CoCo, and the Open Source Security Foundation."
+  },
+  {
+    "id": "fritz-alder",
+    "name": "Fritz Alder",
+    "role": "Technical Advisory Council Member",
+    "organization": "NVIDIA",
+    "title": "Senior Security Architect",
+    "category": "Technical Advisory Council",
+    "avatar": "./leadership-photos/fritz-alder.png",
+    "bio": "Fritz Alder is a Senior Security Architect for confidential computing at NVIDIA. He holds a PhD in confidential computing from KU Leuven, Belgium, and has broad research experience on trusted execution environments including software and interface attacks on enclaves, designing and architecting secure hardware additions, and integrating confidential computing in the cloud. He is one of the organizers of the FOSDEM devroom on confidential computing."
+  },
+  {
+    "id": "nathaniel-mccallum",
+    "name": "Nathaniel McCallum",
+    "role": "Technical Advisory Council Member",
+    "organization": "AMD",
+    "title": "Principal Software Architect",
+    "category": "Technical Advisory Council",
+    "avatar": "./leadership-photos/nathaniel-mccallum.jpg",
+    "bio": ""
+  },
+  {
+    "id": "zhipeng-huang",
+    "name": "Zhipeng (Howard) Huang",
+    "role": "Technical Advisory Council Member",
+    "organization": "Huawei",
+    "title": "Director of Open Source Ecosystem",
+    "category": "Technical Advisory Council",
+    "avatar": "./leadership-photos/zhipeng-howard-huang.jpg",
+    "bio": "Zhipeng Huang currently serves as Director of Open Source Ecosystem for Huawei Compute productline. Zhipeng is now the TAC member of LFAI, TAC and Outreach member of the Confidential Computing Consortium, co-lead of the Kubernetes Policy WG, project lead of CNCF Security SIG, founder of the OpenStack Cyborg project. Zhipeng is also leading a team in Huawei that works on ONNX, Kubeflow, Akraino, and other open source communities."
+  },
+  {
+    "id": "laura-martinez",
+    "name": "Laura Martinez",
+    "role": "Outreach Committee Chair",
+    "organization": "NVIDIA",
+    "title": "Marketing leader at NVIDIA",
+    "category": "Committee Chairs",
+    "avatar": "./leadership-photos/laura-martinez.jpg",
+    "bio": "Laura Martinez drives marketing strategy at NVIDIA for both accelerated computing and security products. As an advocate for Confidential Computing over the last few years, she's keen to uncover new opportunities for customers to revolutionize their business with GPU performant security. Laura previously served as the director of data center security marketing at Intel where she worked on the industry's first Confidential Computing solution in addition to playing a pivotal role in launching an attestation service. Prior to joining Intel in 2017, Laura worked at UC Davis Health to advance health outcomes through AI. When she was at Trend Micro, she was the founding member of the beta department, growing the customer base from zero to more than 100K in the first year. While continuing to manage that department, she channeled her love for children and technology to create Trend Micro's first parental control solution to protect kids while online."
+  },
+  {
+    "id": "rachel-wan",
+    "name": "Rachel Wan",
+    "role": "Outreach Committee Vice Chair",
+    "organization": "IBM",
+    "title": "Lead Product Manager",
+    "category": "Committee Chairs",
+    "avatar": "./leadership-photos/rachel-wan.jpg",
+    "bio": "Rachel is a Lead Product Manager at IBM, specializing in data privacy and security, with a focus on confidential computing and AI technologies. She leads product development in Confidential Computing/Confidential AI strategy and Virtual Desktop Infrastructure, helping companies ensure data compliance and security throughout the entire data lifecycle. Additionally, Rachel sits as chair of Outreach Committee at the Confidential Computing Consortium (CCC), where she previously led the CC brand repositioning efforts, evolving the messaging from awareness \"What is Confidential Computing\" to adoption \"Why it matters\"."
+  },
+  {
+    "id": "mike-bursell",
+    "name": "Mike Bursell",
+    "role": "Executive Director",
+    "organization": "Confidential Computing Consortium",
+    "title": "Executive Director",
+    "category": "Staff",
+    "avatar": "./leadership-photos/mike-bursell.jpg",
+    "bio": "Mike Bursell is the Executive Director of the Confidential Computing Consortium. He is one of the co-founders of the Enarx project (https://enarx.dev), and was CEO and co-founder of Profian, a start-up based on Enarx. He has previously served on the Governing Boards of the CCC and the Bytecode Alliance and currently holds advisory board roles with various start-ups. Previous companies include Red Hat, Intel and Citrix, with roles in security, virtualisation and networking. After training in software engineering, he specialised in distributed systems and security. He regularly speaks at industry events in Europe, North America and APAC.\n\nProfessional interests include: Confidential Computing, WebAssembly, Linux, trust, open source software, security, distributed systems, blockchain, virtualisation. Mike has an MA from the University of Cambridge and an MBA from theOpen University, and is author of \"Trust in Computer Systems and the Cloud\", published by Wiley. He holds over 100 patents and previously served on the Red Hat patent review committee."
+  }
+]

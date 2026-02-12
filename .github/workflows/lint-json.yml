@@ -1,0 +1,45 @@
+name: Lint and Format JSON
+
+on:
+  push:
+    paths:
+      - 'ccc-leadership/leadership.json'
+  pull_request:
+    paths:
+      - 'ccc-leadership/leadership.json'
+  workflow_dispatch:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check JSON formatting
+        run: |
+          python3 << 'EOF'
+          import json
+          import sys
+          
+          json_path = 'ccc-leadership/leadership.json'
+          
+          try:
+              with open(json_path, 'r', encoding='utf-8') as f:
+                  content = f.read()
+                  data = json.loads(content)
+              
+              # Check if properly formatted (2-space indent)
+              formatted = json.dumps(data, indent=2, ensure_ascii=False)
+              
+              if content.strip() != formatted.strip():
+                  print("⚠️  Warning: JSON is not properly formatted")
+                  print("   Run: python3 -m json.tool ccc-leadership/leadership.json > temp.json && mv temp.json ccc-leadership/leadership.json")
+              else:
+                  print("✅ JSON is properly formatted")
+              
+          except json.JSONDecodeError as e:
+              print(f"❌ Invalid JSON: {e}")
+              sys.exit(1)
+          EOF
+

@@ -1,0 +1,61 @@
+name: Validate Leadership JSON
+
+on:
+  push:
+    paths:
+      - 'ccc-leadership/leadership.json'
+  pull_request:
+    paths:
+      - 'ccc-leadership/leadership.json'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Validate JSON structure
+        run: |
+          python3 << 'EOF'
+          import json
+          import sys
+          
+          required_fields = ['id', 'name', 'role', 'organization', 'title', 'category', 'avatar', 'bio']
+          
+          try:
+              with open('ccc-leadership/leadership.json', 'r', encoding='utf-8') as f:
+                  data = json.load(f)
+              
+              if not isinstance(data, list):
+                  print("❌ Error: leadership.json must be a JSON array")
+                  sys.exit(1)
+              
+              errors = []
+              for idx, person in enumerate(data):
+                  for field in required_fields:
+                      if field not in person:
+                          errors.append(f"Person {idx + 1} ({person.get('name', 'Unknown')}): Missing required field '{field}'")
+              
+              if errors:
+                  print("❌ Validation errors found:")
+                  for error in errors:
+                      print(f"  - {error}")
+                  sys.exit(1)
+              
+              print(f"✅ Validation passed: {len(data)} leadership entries")
+              
+          except json.JSONDecodeError as e:
+              print(f"❌ Invalid JSON: {e}")
+              sys.exit(1)
+          except FileNotFoundError:
+              print("❌ Error: leadership.json not found")
+              sys.exit(1)
+          EOF
+

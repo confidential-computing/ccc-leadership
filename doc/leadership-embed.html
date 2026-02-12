@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Leadership - Confidential Computing Consortium</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=latin,latin-ext" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,300italic,400,400italic,500,500italic,700,700italic&subset=latin" rel="stylesheet">
+
+<!-- external CSS -->
+<link rel="stylesheet" href="./leadership.css">
+</head>
+<body>
+
+  <!-- Wrap page content so it can be blurred when a modal is open -->
+  <div id="page-content">
+    <!-- JS will inject all leadership cards and modals here -->
+    <div class="leadership-grid" id="leadership-grid"></div>
+  </div>
+
+
+  <script defer src="./leadership.js"></script>
+
+
+  <script>
+    (function () {
+      function syncModalOpenClass() {
+        if (location.hash && document.querySelector(location.hash + '.modal')) {
+          document.body.classList.add('modal-open');
+        } else {
+          document.body.classList.remove('modal-open');
+        }
+      }
+      window.addEventListener('hashchange', syncModalOpenClass);
+      document.addEventListener('DOMContentLoaded', syncModalOpenClass);
+    })();
+  </script>
+
+</body>
+</html>
+

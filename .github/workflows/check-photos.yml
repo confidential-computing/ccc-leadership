@@ -1,0 +1,61 @@
+name: Check Leadership Photos
+
+on:
+  push:
+    paths:
+      - 'ccc-leadership/leadership.json'
+      - 'ccc-leadership/leadership-photos/**'
+  pull_request:
+    paths:
+      - 'ccc-leadership/leadership.json'
+      - 'ccc-leadership/leadership-photos/**'
+  workflow_dispatch:
+
+jobs:
+  check-photos:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Check for missing photos
+        run: |
+          python3 << 'EOF'
+          import json
+          import os
+          import sys
+          
+          json_path = 'ccc-leadership/leadership.json'
+          photos_dir = 'ccc-leadership/leadership-photos'
+          
+          try:
+              with open(json_path, 'r', encoding='utf-8') as f:
+                  data = json.load(f)
+              
+              missing = []
+              for person in data:
+                  avatar = person.get('avatar', '')
+                  if avatar.startswith('./leadership-photos/'):
+                      filename = avatar.replace('./leadership-photos/', '')
+                      photo_path = os.path.join(photos_dir, filename)
+                      if not os.path.exists(photo_path):
+                          missing.append(f"{person.get('name', 'Unknown')}: {filename}")
+              
+              if missing:
+                  print("❌ Missing photos:")
+                  for item in missing:
+                      print(f"  - {item}")
+                  sys.exit(1)
+              
+              print(f"✅ All photos present: {len(data)} entries checked")
+              
+          except Exception as e:
+              print(f"❌ Error: {e}")
+              sys.exit(1)
+          EOF
+
