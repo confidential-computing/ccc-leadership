@@ -178,5 +178,15 @@
     "category": "Staff",
     "avatar": "./leadership-photos/mike-bursell.jpg",
     "bio": "Mike Bursell is the Executive Director of the Confidential Computing Consortium. He is one of the co-founders of the Enarx project (https://enarx.dev), and was CEO and co-founder of Profian, a start-up based on Enarx. He has previously served on the Governing Boards of the CCC and the Bytecode Alliance and currently holds advisory board roles with various start-ups. Previous companies include Red Hat, Intel and Citrix, with roles in security, virtualisation and networking. After training in software engineering, he specialised in distributed systems and security. He regularly speaks at industry events in Europe, North America and APAC.\n\nProfessional interests include: Confidential Computing, WebAssembly, Linux, trust, open source software, security, distributed systems, blockchain, virtualisation. Mike has an MA from the University of Cambridge and an MBA from theOpen University, and is author of \"Trust in Computer Systems and the Cloud\", published by Wiley. He holds over 100 patents and previously served on the Red Hat patent review committee."
+  },
+  {
+    "id": "simon-gallagher",
+    "name": "Simon Gallagher",
+    "role": "Budget Committee Treasurer",
+    "organization": "Microsoft",
+    "title": "",
+    "category": "Budget Committee",
+    "avatar": "",
+    "bio": ""
   }
 ]
