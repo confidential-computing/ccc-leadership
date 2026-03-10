@@ -133,7 +133,8 @@
       { key: 'Governing Board', label: 'Governing Board' },
       { key: 'Committee Chairs', label: 'Outreach' },
       { key: 'Technical Advisory Council', label: 'Technical Advisory Council' },
-      { key: 'Staff', label: 'Staff' }
+      { key: 'Staff', label: 'Staff' },
+      { key: 'Budget Committee', label: 'Budget Committee' }
     ];
 
     // Inject cards grouped by category in specified order
